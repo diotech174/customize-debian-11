@@ -35,7 +35,7 @@ echo Checking for $GCHROME_PKG: $GCHROME__OK
 if [ "" = "$GCHROME__OK" ]; then
 
   	echo "No $GCHROME_PKG. Setting up $GCHROME_PKG."
-  	wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -P /home/$USER/Downloads/google-chrome-stable
+  	wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -P /home/$USER/Downloads/google-chrome-stable.deb
   	sudo apt install /home/$USER/google-chrome-stable*
   	chmod 777 /home/$USER/google-chrome-stable*
   	rm /home/$USER/google-chrome-stable*
